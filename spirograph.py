@@ -1,4 +1,4 @@
-from math import sin, cos, degrees, radians, pi
+from math import sin, cos, radians
 
 
 class Circle:
@@ -25,8 +25,6 @@ class Circle:
             ch_x = self.x + norm_x * radius
             ch_y = self.y + norm_y * radius
             child.set_position(ch_x, ch_y)
-            # set the child's position, using self.angle, self.radius, and self.x , y.
-
 
     def set_position(self, x, y):
         self.x = x

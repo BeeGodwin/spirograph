@@ -1,4 +1,3 @@
-import play_spiro
 import spirograph
 from spirograph import Circle
 
